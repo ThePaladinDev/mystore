@@ -3,6 +3,10 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# Don't commit sensitive info
+**/src/main/resources/application-dev.properties
+# Starter H2 Schema + Data
+src/main/resources/sql
 
 ### STS ###
 .apt_generated
